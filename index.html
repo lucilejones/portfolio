@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luci Jones</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-lj.png">
+    <link rel="stylesheet" href="index.css">
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@400;800&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <nav class="navbar-container">
+        <h3>Luci Jones</h3>
+        <div>
+            <a href="#section-1">About</a>
+            <a href="#section-2">Projects</a>
+            <a href="#section-3">Contact</a>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <div class="main-intro">
+            <div class="main-intro-text">
+                <div>
+                    <h1>Luci Jones</h1>
+                    <h4>Web Developer</h4>
+                </div>
+                <div class="button-box1">
+                    <a class="button main-button" href="#section-3">Contact</a>
+                </div>
+            </div>
+            <div class="second-button-box">
+                <a class="button main-button" href="#section-1">About</a>
+                <a class="button main-button" href="#section-2">Projects</a>
+            </div>
+
+        </div>
+        <p class="photo-credit">Photo by <a
+                href="https://unsplash.com/fr/@jipy32?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank">Jean-Philippe
+                Delberghe</a> on <a
+                href="https://unsplash.com/photos/75xPHEQBmvA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank">Unsplash</a>
+        </p>
+
+
+        <!-- about -->
+        <section id="section-1" class="about-container">
+            <h2>About</h2>
+            <p>I love clarity and facilitating understanding. Whether that's reading and writing clean, accurate code or
+                learning about all the different sides of an issue in order to gain a nuanced perspective.
+                I pay attention to details, enjoy taking input from multiple sources, and care deeply about people.
+                I am excited to create functional and user-friendly technologies that are equitable, accessible, and
+                improve the lives of a diverse audience of users.
+            </p>
+
+        </section>
+
+        <!-- projects -->
+        <section id="section-2" class="project-container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h4>Creative Writing App</h4>
+                    <img src="./images/screenshot-creative-writing-app.PNG" />
+                    <p>This full-stack app is for a community of users to be able to submit prompts and publish
+                        practice written works. Users can also save posted prompts and comment on each other's
+                        entries.</p>
+                    <div class="button-box2">
+                        <a class="button" href="https://github.com/lucilejones/Creative-Writing-Prompt-Exercises-App"
+                            target="_blank">View Code</a>
+                        <a class="button" href="https://creative-writing-app.onrender.com" target="_blank">View
+                            Live</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Recipe and Menu App</h4>
+                    <img src="./images/screenshot-recipe-app.PNG" />
+                    <p>Incorporating the Spoonacular API, this app allows users to save recipes and to
+                        create weekly meal plans. </p>
+                    <div class="button-box2">
+                        <a class="button" href="https://github.com/lucilejones/recipe-and-mealplan-app"
+                            target="_blank">View
+                            Code</a>
+                        <a class="button" href="https://mealplanner-frontend.onrender.com/" target="_blank">View
+                            Live</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Book Search App</h4>
+                    <img src="./images/screenshot-book-search-app.PNG" />
+                    <p>This book search app is built to interact with the Open Libary API. Users can search through
+                        books and save them to a list.</p>
+                    <div class="button-box2">
+                        <a class="button" href="https://github.com/lucilejones/Book-Search-App" target="_blank">View
+                            Code</a>
+                        <a class="button" href="https://book-search-app-4vx6.onrender.com" target="_blank">View
+                            Live</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="section-3" class="contact-container">
+            <h2>Contact</h2>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+                        required></textarea>
+                </div>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="button">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <p>Made by Luci Jones</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/lucilejones/" target="_blank">
+                <i class="fab fa-linkedin icon"></i>
+            </a>
+            <a href="https://github.com/lucilejones" target="_blank">
+                <i class="fab fa-github-square icon"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
