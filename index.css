@@ -138,11 +138,11 @@ section p {
 }
 
 .button-box2 {
-     /* margin: 10px; */
-     width: 280px;
-     display: flex;
-     justify-content: space-between;
-     padding: 8px;
+    /* margin: 10px; */
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
 }
 
 .second-button-box {
