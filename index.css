@@ -19,11 +19,20 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.navbar-container a {
+.nav-item {
     font-family: 'Lato', sans-serif;
+    font-size: 14px;
     color: #ffffff;
     text-decoration: none;
     margin-left: 3px;
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 0px;
 }
 
 .main-intro {
@@ -70,6 +79,7 @@
 }
 
 .about-container,
+.skills-container,
 .project-container,
 .contact-container {
     padding: 10px;
@@ -146,15 +156,15 @@ section p {
 }
 
 .second-button-box {
-    width: 230px;
+    width: 260px;
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
 
-.second-button-box a {
-    width: 100px;
-}
+/* .second-button-box a {
+    width: 90px;
+} */
 
 .button {
     display: inline-block;
@@ -172,7 +182,8 @@ section p {
 }
 
 .main-button {
-    width: 130px;
+    width: 80px;
+    font-size: 13px;
 }
 
 .fcf-form-class {
@@ -233,7 +244,7 @@ section p {
 
 
 @media (min-width: 425px) {
-    .navbar-container a {
+    .nav-item {
         margin-left: 15px;
     }
 
@@ -242,6 +253,7 @@ section p {
     }
 
     .about-container,
+    .skills-container,
     .project-container,
     .contact-container {
         width: 360px;
@@ -258,11 +270,17 @@ section p {
 
 @media (min-width: 576px) {
 
+    .nav-item,
+    .logo {
+        font-size: 18px;
+    }
+
     .main-intro-text {
         padding: 45px 60px;
     }
 
     .about-container,
+    .skills-container,
     .project-container,
     .contact-container {
         width: 460px;
@@ -270,6 +288,15 @@ section p {
 
     img {
         width: 450px;
+    }
+
+    .button {
+        padding: 8px;
+    }
+
+    .main-button {
+        width: 82px;
+        font-size: 15px;
     }
 
     .project p {
@@ -288,6 +315,7 @@ section p {
     }
 
     .about-container,
+    .skills-container,
     .project-container,
     .contact-container {
         width: 670px;
